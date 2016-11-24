@@ -28,7 +28,6 @@
   "author": "Rolando Santamaria Maso <rsantamaria@innotrade.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "co": "^4.6.0",
     "eventemitter2": "^2.2.0",
     "request": "^2.79.0",
     "uuid": "^3.0.0"
