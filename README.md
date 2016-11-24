@@ -84,9 +84,9 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
 # Config params
 ```js
 let config = {};
-config.url = 'https://localhost:8787/Enapso/Enapso'; // the Enapso Enterprise Server connection URL
-config.username = 'root'; // login username
-config.password = 'root'; // login password
+config.url = 'https://dash.innotrade.com/http'; // the Enapso Enterprise Server connection URL
+config.username = 'guest'; // login username
+config.password = 'guest'; // login password
 config.autoSyncTimeout = 500; // timeout used by the HttpClient to automatically pull messages from the server. Min value: 400ms
 ```
 

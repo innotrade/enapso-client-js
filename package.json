@@ -1,5 +1,5 @@
 {
-  "name": "enapso.server.client",
+  "name": "enapso-client-js",
   "version": "1.0.0",
   "description": "HTTP/WebSocket Client (JavaScript) for Enapso Enterprise Server",
   "main": "index.js",
