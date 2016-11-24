@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "HTTP/WebSocket Client (JavaScript) for Enapso Enterprise Server",
   "main": "index.js",
+  "repository": "git://github.com/innotrade/enapso-client-js",
   "scripts": {
     "test": "mocha tests --compilers js:mocha-traceur"
   },
