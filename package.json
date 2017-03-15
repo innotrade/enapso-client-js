@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "enapso.server.client",
   "version": "1.1.0",
   "description": "HTTP/WebSocket Client (JavaScript) for Enapso Enterprise Server",
@@ -7,15 +6,6 @@
   "scripts": {
     "test": "mocha tests --compilers js:mocha-traceur",
     "testws": "mocha testsws --compilers js:mocha-traceur"
-=======
-  "name": "enapso-client-js",
-  "version": "1.0.0",
-  "description": "HTTP/WebSocket Client (JavaScript) for Enapso Enterprise Server",
-  "main": "index.js",
-  "repository": "git://github.com/innotrade/enapso-client-js",
-  "scripts": {
-    "test": "mocha tests --compilers js:mocha-traceur"
->>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
   },
   "keywords": [
     "enapso",
@@ -30,7 +20,6 @@
     "mocha-traceur": "^2",
     "traceur": "^0"
   },
-<<<<<<< HEAD
   "author": "Rolando Santamaria Maso <rsantamaria@innotrade.com>",
   "license": "Apache-2.0",
   "dependencies": {
@@ -38,20 +27,12 @@
     "eventemitter2": "^2.2.0",
     "request": "^2.79.0",
     "uuid": "^3.0.0",
-    "ws": "^2.2.1"
-=======
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js",
-    "clients/"
-  ],
-  "author": "Rolando Santamaria Maso <rsantamaria@innotrade.com>",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "eventemitter2": "^2.2.0",
-    "request": "^2.79.0",
-    "uuid": "^3.0.0"
->>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
+    "ws": "^2.2.1",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "index.js",
+      "clients/"
+    ]
   }
 }
