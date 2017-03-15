@@ -13,7 +13,10 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
 
 1. Creating connection instance:
   ```js
+<<<<<<< HEAD
   // HTTP connection
+=======
+>>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
   const HttpClient = require('enapso-client-js').HttpClient;
   const conn = new HttpClient({
     url: 'https://dash.innotrade.com/http',
@@ -21,6 +24,7 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
     password: 'guest'
   });
   ```
+<<<<<<< HEAD
   ```js
   // WebSocket connection
   const WebSocketClient = require("./index.js").WebSocketClient
@@ -30,6 +34,8 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
     password: 'guest'
   });
   ```
+=======
+>>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
 
 2. Opening connection and login:
   ```js
@@ -94,9 +100,15 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
 # Config params
 ```js
 let config = {};
+<<<<<<< HEAD
 config.url = 'https://localhost:8787/Enapso/Enapso'; // the Enapso Enterprise Server connection URL
 config.username = 'root'; // login username
 config.password = 'root'; // login password
+=======
+config.url = 'https://dash.innotrade.com/http'; // the Enapso Enterprise Server connection URL
+config.username = 'guest'; // login username
+config.password = 'guest'; // login password
+>>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
 config.autoSyncTimeout = 500; // timeout used by the HttpClient to automatically pull messages from the server. Min value: 400ms
 ```
 
@@ -169,10 +181,20 @@ conn.on('message', (msg) => {
 });
 ```
 
+<<<<<<< HEAD
+=======
+# Roadmap
+1. Introduce WebSocket support.
+
+>>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
 # Tests
 ```bash
 $ git clone https://github.com/innotrade/enapso-client-js.git
 $ cd enapso-client-js/
 $ npm install
 $ npm test
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 0dab601f3320728de5ca523c8abc61ad0e2a9cc8
