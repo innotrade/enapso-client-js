@@ -13,9 +13,19 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
 
 1. Creating connection instance:
   ```js
+  // HTTP connection
   const HttpClient = require('enapso-client-js').HttpClient;
   const conn = new HttpClient({
     url: 'https://dash.innotrade.com/http',
+    username: 'guest',
+    password: 'guest'
+  });
+  ```
+  ```js
+  // WebSocket connection
+  const WebSocketClient = require("./index.js").WebSocketClient
+  const conn = new WsClient({
+    url: 'wss://heprdlxdemo01.innotrade.com', // your remote Enapso server instance
     username: 'guest',
     password: 'guest'
   });
@@ -158,9 +168,6 @@ conn.on('message', (msg) => {
   // argument msg is a JSON object
 });
 ```
-
-# Roadmap
-1. Introduce WebSocket support.
 
 # Tests
 ```bash
