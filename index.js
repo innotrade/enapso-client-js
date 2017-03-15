@@ -15,5 +15,6 @@
  */
 
 module.exports = {
-    HttpClient: require('./clients/HttpClient.js')
-}   
+    HttpClient: require('./clients/HttpClient.js'),
+    WebSocketClient: require('./clients/WebSocketClient.js'),
+}
