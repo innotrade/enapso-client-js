@@ -24,7 +24,7 @@ The library use [ES6 Promise](https://developers.google.com/web/fundamentals/get
   ```js
   // WebSocket connection
   const WebSocketClient = require('enapso-client-js').WebSocketClient
-  const conn = new WsClient({
+  const conn = new WebSocketClient({
     url: 'wss://heprdlxdemo01.innotrade.com', // your remote Enapso server instance
     username: 'guest',
     password: 'guest'
